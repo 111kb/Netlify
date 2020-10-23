@@ -2,8 +2,8 @@ FROM ubuntu:xenial
 
 ENV PORT    3000
 
-ADD vvv /vvv
+ADD abc /abc
 ADD start.sh /start.sh
-RUN chmod +x /vvv
+RUN chmod +x /abc
 RUN chmod +x /start.sh
 CMD ./start.sh
