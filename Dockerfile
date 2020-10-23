@@ -1,6 +1,6 @@
 FROM ubuntu:xenial
 
-ENV PORT    3000
+ENV PORT    2000
 
 ADD abc /abc
 ADD start.sh /start.sh
